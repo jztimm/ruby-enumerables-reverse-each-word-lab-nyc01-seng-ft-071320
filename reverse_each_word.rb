@@ -8,6 +8,7 @@ def reverse_each_word(str)
     reverse_word = word.reverse!
     reverse_arr << reverse_word
   end
+  binding.pry
   reverse_arr.join(" ")
   reverse_arr
 end

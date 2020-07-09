@@ -7,7 +7,7 @@ def reverse_each_word(str)
     reverse_arr << reverse_word
   end
   reverse_arr.join(" ")
-  #binding.pry
+  binding.pry
   reverse_arr
 end
 

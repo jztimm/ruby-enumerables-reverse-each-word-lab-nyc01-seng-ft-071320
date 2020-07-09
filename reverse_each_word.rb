@@ -8,9 +8,10 @@ def reverse_each_word(str)
     reverse_word = word.reverse!
     reverse_arr << reverse_word.concat(" ")
   end
-  
   reverse_arr
 end
+
+
 
 
 

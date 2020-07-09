@@ -3,7 +3,7 @@ def reverse_each_word(str)
   reverse_arr = ""
 
   str_arr.each do |word|
-    reverse.push(str_arr[word].reverse)
+    reverse.push(str_arr[word].reverse!)
   end
   reverse_arr.join(" ")
   reverse_arr

@@ -1,6 +1,6 @@
 require 'pry'
 
-def reverse_each_word(str)
+def reverse_each_word_each(str)
   str_arr = str.split(" ")
   reverse_arr = []
 
@@ -11,6 +11,16 @@ def reverse_each_word(str)
   reverse_arr.join(" ")
 end
 
+
+def reverse_each_word(string)
+  new_arr = string.split(" ")
+  return_arr = []
+  
+  new_arr.collect do |string|
+    return_arr << string.reverse
+  end
+  return_arr
+end
 
 
 

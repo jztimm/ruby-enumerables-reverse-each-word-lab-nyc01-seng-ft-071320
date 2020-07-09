@@ -6,7 +6,7 @@ def reverse_each_word(str)
     reverse_word = word.reverse!
     reverse_arr.push(reverse_word)
   end
-  reverse_arr.join("")
+  reverse_arr.join(" ")
   #binding.pry
   reverse_arr
 end

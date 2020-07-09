@@ -2,13 +2,13 @@ require 'pry'
 
 def reverse_each_word(str)
   str_arr = str.split(" ")
-  reverse_arr = ""
+  reverse_arr = []
 
   str_arr.each do |word|
     reverse_word = word.reverse!
-    reverse_arr << reverse_word.concat(" ")
+    reverse_arr << reverse_word
   end
-  reverse_arr
+  reverse_arr.join(" ")
 end
 
 
